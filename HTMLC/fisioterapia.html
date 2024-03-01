@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisioterapia XYZ</title>
+    <style>
+        body {
+            background-color: #87CEEB; 
+            color: #333; 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, footer {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff; 
+            border-radius: 10px; 
+        }
+        h1, h2 {
+            color: #87CEEB; 
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+        img{
+            width: 40%; /
+            max-width: 200px; 
+            height: auto; 
+            display: block; 
+            margin: 10px 0;    
+        }
+    </style>
+</head>
+<body>
+
+    
+    <header>
+        <h1>Sinai Fisioterapia y Quiropractico</h1>
+        <p>Porque queremos verte en movimiento.</p>
+    </header>
+
+    
+    <nav>
+        <ul>
+            <li><a href="#servicios">Nuestros Servicios</a></li>
+            <li><a href="#acerca">Acerca de Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <p>Ofrecemos una variedad de servicios de fisioterapia para mejorar tu bienestar.</p>
+        <img src="./Imagenes/pagiprinicpal.jpg"
+        
+        
+            <li>Lesiones Deportivas</li> 
+            <li>Dolores Articulares</li>  
+            <li>Tratamientos para problemas de columna</li>
+            <li>Post Operatorios Ortopedidos</li>
+    </section>
+
+
+    <section id="acerca">
+        <h2>Acerca de Nosotros</h2>
+        <p>Somos un equipo dedicado de profesionales comprometidos con tu salud.</p>
+        <p></p>Estamos comprometidos a tranformar tu dolor en progreso y movimientos. Recupera, renueva y revitaliza tu vida.
+    <img src="./Imagenes/FISIOelegirnos.jpg"
+    </section>
+
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Contáctanos para programar una cita o hacer preguntas sobre nuestros servicios.</p>
+        
+        <form action="procesar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2024 Sinai Fisioterapia y Quiropractico. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
